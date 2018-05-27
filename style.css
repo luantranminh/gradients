@@ -1,0 +1,84 @@
+.card-img-top.id1 {
+    background: url(https://languagedrops.com/wp-content/uploads/2017/09/texture.png) repeat, linear-gradient(135deg,#7446a5 0%,#85289F 50%,#50136a 100%);
+}
+.card-img-top.id2 {
+    background: url(https://languagedrops.com/wp-content/uploads/2017/09/texture.png) repeat, linear-gradient(135deg,#0290bc 0%,#1E7F90 50%,#013a91 100%);
+}
+.card-img-top.id3 {
+    background: url(https://languagedrops.com/wp-content/uploads/2017/09/texture.png) repeat, linear-gradient(135deg,#fec52c 0%,#EE9B31 50%,#bb7640 100%);
+}
+.card-img-top.id4 {
+    background: url(https://languagedrops.com/wp-content/uploads/2017/09/texture.png) repeat, linear-gradient(135deg,#3fb9a0 0%,#24A981 50%,#006674 100%);
+}
+.card-img-top.id5 {
+    background: url(https://languagedrops.com/wp-content/uploads/2017/09/texture.png) repeat, linear-gradient(135deg,#7446a5 0%,#85289F 50%,#50136a 100%);
+}
+.card-img-top.id6 {
+    background: url(https://languagedrops.com/wp-content/uploads/2017/09/texture.png) repeat, linear-gradient(135deg,#0290bc 0%,#1E7F90 50%,#013a91 100%);
+}
+.card-img-top.id7 {
+    background: url(https://languagedrops.com/wp-content/uploads/2017/09/texture.png) repeat, linear-gradient(135deg,#7446a5 0%,#85289F 50%,#50136a 100%);
+}
+.card-img-top.id8 {
+    background: url(https://languagedrops.com/wp-content/uploads/2017/09/texture.png) repeat, linear-gradient(135deg,#4a4bb0 0%,#5858AE 50%,#3a1778 100%);
+}
+
+/* .div  {
+    height: 999px;
+    height: 100%;
+}
+*/
+.text-on-img {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 44px;
+    line-height: 54px;
+    font-weight: 100;
+    color: #fff;
+    text-align: right;
+    vertical-align: middle;
+    line-height: 250px;
+    margin-right: 10%;
+}
+
+.description {
+    text-align: center;
+    
+    margin-right: 10%;
+    color: #fff;
+    font-weight: inherit;
+}
+
+.heart-container {
+    position: absolute;
+}
+  
+.twitter-heart {
+    position: absolute;
+    background: url("https://abs.twimg.com/a/1454637594/img/t1/web_heart_animation.png");
+    background-position: 0px;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+    top: -50px;
+    left: -40px;
+    pointer-events: none;
+}
+  
+.toggle {
+    opacity: 0;
+    transform: scale(3);
+    position: absolute;
+  }
+.toggle:checked + .twitter-heart {
+    animation: heart-animate 0.8s steps(28) forwards;
+  }
+  
+@keyframes heart-animate {
+    100% {
+      background-position: -2800px;
+    }
+}
+
+h1 {
+    text-align: center;
+}
